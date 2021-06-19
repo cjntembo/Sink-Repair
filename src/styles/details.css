@@ -1,0 +1,31 @@
+
+
+html {
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+}
+
+.field {
+    flex-direction: column;
+    font-size: 3rem;
+}
+
+.button {
+        background-color: #008CBA; /* blue */
+        border: none;
+        border-radius: 25%;
+        color: white;
+        width: 50%;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+      }
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    }
